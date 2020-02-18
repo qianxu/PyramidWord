@@ -10,8 +10,9 @@ Examples:
     baNana is not a pyramid word because you have 1 'b', 1 'N' and 1 'n'.
 
 How to test it:
-1. Build and start PyramidWordServiceLibrary service.
-2. Build and start WCFClient console application. Input any word to check whether it is pyramid word. Input nothing to exit.
+1. Open these two solutions in Visual Studio 2017 or newer version.
+2. Build and start PyramidWordServiceLibrary service.
+3. Build and start WCFClient console application. Input any word to check whether it is pyramid word. Input nothing to exit.
 
 Note: 
-If it fails to connect to the PyramidWord service, please delete the service and add it again in WCFClient solution.
+If it fails to connect to the PyramidWord service, please delete the service and add it again in WCFClient solution. You need to copy the service address from WCF Test Client and add it in the dialog of "Add Service Reference".
